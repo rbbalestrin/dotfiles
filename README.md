@@ -1,6 +1,18 @@
-# dotfiles
+# Renan's setup
 
-Personal setup inventory for moving between macOS, Linux, and WSL.
+Personal checklist for setting up a new Mac while keeping Linux/WSL compatibility around.
+
+## Daily apps
+
+- [Helium Browser](https://helium.computer/) — browser
+- [Todoist](https://www.todoist.com/) — tasks
+- [Raycast](https://www.raycast.com/) — launcher and shortcuts
+- [Slack](https://slack.com/) — work communication
+- [Obsidian](https://obsidian.md/) — local notes
+- [Ghostty](https://ghostty.org/) / [WezTerm](https://wezterm.org/) — terminal
+- [Zed](https://zed.dev/) — code editor
+- [Pi](https://pi.dev/) — coding agent
+- [VIA](https://usevia.app/) — keyboard configuration
 
 ## Terminal / CLI
 
@@ -9,50 +21,17 @@ Personal setup inventory for moving between macOS, Linux, and WSL.
 - bash config for Linux/WSL
 - tmux config
 - git config using GitHub CLI auth
-- pi settings without secrets
+- pi settings
 - Homebrew `Brewfile` for Mac CLI tools
 - small scripts
 
-## Apps and services I use
+## Repo map
 
-### Browsers
-
-- [Helium Browser](https://helium.computer/) for daily browsing
-- Browser profiles for separating personal, Apta, and client contexts
-- Browser/devtools workflows when working with agents
-
-### AI / agents
-
-- pi coding agent
-- Claude / Claude Code style agent workflows
-- OpenAI Codex provider through pi
-- context-mode for long outputs, docs, searches, and session context
-
-### Work / knowledge
-
-- GitHub + GitHub CLI auth
-- Notion for workspace/business knowledge
-- Obsidian vault for local notes when useful
-- Google Drive / Docs / Sheets for shared work
-- Slack for Apta communication
-
-### Productivity
-
-- Todoist for tasks
-- Calendar / Meet for meetings
-- Fireflies for meeting transcription
-
-### Media / utilities
-
-- Spotify / Spotify Player
-- tmux for long-running terminal sessions
-- Homebrew on macOS
-- WSL/Linux compatibility kept for older setup
-
-## Not committed here
-
-- API keys
-- auth files
-- `.env` files
-- pi `auth.json`
-- private tokens or credentials
+- `Brewfile` — Mac CLI packages
+- `bashrc/.bashrc` — bash entrypoint
+- `zsh/.zshrc` — zsh entrypoint
+- `shell/` — shared and OS-specific shell config
+- `tmux/.tmux.conf` — tmux config
+- `git/.gitconfig` — git config
+- `pi/settings.json` — pi settings
+- `scripts/` — small utilities
