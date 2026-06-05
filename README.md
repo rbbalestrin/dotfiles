@@ -17,9 +17,9 @@ Personal setup inventory for moving between macOS, Linux, and WSL.
 
 ### Browsers
 
-- Arc / Chrome-style browser for daily work
+- [Helium Browser](https://helium.computer/) for daily browsing
 - Browser profiles for separating personal, Apta, and client contexts
-- Chrome DevTools / browser MCP workflows when working with agents
+- Browser/devtools workflows when working with agents
 
 ### AI / agents
 
