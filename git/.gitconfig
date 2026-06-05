@@ -1,0 +1,9 @@
+[user]
+	name = Renan Bez
+	email = 98977837+rbbalestrin@users.noreply.github.com
+
+[credential "https://github.com"]
+	helper = !gh auth git-credential
+
+[credential "https://gist.github.com"]
+	helper = !gh auth git-credential

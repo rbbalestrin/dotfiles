@@ -1,0 +1,14 @@
+{
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.5",
+  "defaultThinkingLevel": "low",
+  "theme": "catppuccin-macchiato",
+  "packages": [
+    "git:github.com/zenobi-us/pi-worktrees",
+    "npm:@zenobius/pi-worktrees",
+    "npm:pi-opencode-bridge",
+    "npm:context-mode",
+    "npm:@howaboua/pi-codex-conversion",
+    "git:github.com/earendil-works/pi-review"
+  ]
+}

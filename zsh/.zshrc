@@ -1,6 +1,3 @@
-# If not running interactively, don't do anything.
-[[ $- != *i* ]] && return
-
 DOTFILES_DIR="${DOTFILES_DIR:-$HOME/dotfiles}"
 
 case "$(uname -s)" in
